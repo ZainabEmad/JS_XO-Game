@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.title {
+    font-size: 2em;
+    color: #333;
+    padding: 10px 0;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #a65656;
+    border-radius: 5px;
+    width: 320px;
+    display: inline-block;
+}
+
+span {
+    color: #fa0;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    width: 320px;
+    text-align: center;
+}
+
+.squere {
+    width: 100px;
+    height: 100px;
+    background-color: #a65656;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.squere:hover {
+    background-color: #5e5b5b;
+}
